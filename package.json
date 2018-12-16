@@ -6,7 +6,7 @@
   "license": "BSD-3-Clause",
   "repository": "Polymer/polymer-starter-kit",
   "scripts": {
-    "start": "node a.js && polymer serve --port process.env.PORT",
+    "start": "polymer serve --port 52517",
     "build": "polymer build",
     "lint": "polymer lint",
     "test": "polymer test",
