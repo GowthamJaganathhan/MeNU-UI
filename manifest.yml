@@ -1,0 +1,4 @@
+applications:
+  - name: px-sample-app
+    buildpack: nodejs_buildpack
+    command: polymer serve
