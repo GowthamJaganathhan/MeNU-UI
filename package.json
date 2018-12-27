@@ -7,7 +7,7 @@
   "repository": "Polymer/polymer-starter-kit",
   "scripts": {
     "prestart": "node a.js && echo $PORT ",
-    "start": "polymer serve --port $PORT",
+    "start": "polymer serve --hostname 0.0.0.0 --port $PORT",
     "build": "polymer build",
     "lint": "polymer lint",
     "test": "polymer test",
